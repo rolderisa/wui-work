@@ -203,5 +203,28 @@ font-weight: bold;
       transform: scale(1);
     }
   }
-  
+    @media  screen and (max-width:480px) {
+
+.body{
+    width: 100%;
+
+}
+.header{
+    width: 100%;
+    display:list-item;
+}
+
+  }  
+  @media  screen and (max-width:960px) {
+
+    .body{
+        width: 100%;
+    
+    }
+    .header{
+        width: 100%;
+        display:list-item;
+    }
+    
+      }  
 
